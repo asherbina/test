@@ -5,7 +5,7 @@
 	<title>Title</title>
 </head>
 <body>
-	<a href="#2">Go to the same page</a>
+	<a href="javascript:void(0)" onclick="history.pushState(null, null, '#newurl')">Go to the same page</a>
 	<script>
 		window.addEventListener('hashchange', function (event) {
 	    alert(1);
